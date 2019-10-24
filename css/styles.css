@@ -15,20 +15,27 @@ Index Header
 *********************************/
 
 .header_div {
-  margin: 30px 0;
+  margin: 50px 0;
 }
 
 #logo {
   text-align: center;
+  font-size: 2em;
 }
 
-.navbar {
+.nav_list {
   text-align: center;
 }
 
 .nav_list {
   list-style: none;
   padding: 0;
+}
+
+.nav_list li {
+  font-size: 1.25em;
+  padding: 0 20px;
+  display: inline;
 }
 
 .nav_list a,
@@ -40,7 +47,6 @@ Index Header
   color: grey;
 }
 
-.nav_list li {
-  /* font-size: 1.25em; */
-  display: inline;
-}
+/*********************************
+Index Main
+*********************************/
