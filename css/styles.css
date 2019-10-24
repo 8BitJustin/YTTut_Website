@@ -1,0 +1,46 @@
+/*********************************
+Universal
+*********************************/
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*********************************
+Index Header
+*********************************/
+
+.header_div {
+  margin: 30px 0;
+}
+
+#logo {
+  text-align: center;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.nav_list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav_list a,
+.nav_list a:visited {
+  color: black;
+}
+
+.nav_list a:hover {
+  color: grey;
+}
+
+.nav_list li {
+  /* font-size: 1.25em; */
+  display: inline;
+}
