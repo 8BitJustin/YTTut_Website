@@ -38,15 +38,25 @@ Index Header
   display: inline;
 }
 
-.nav_list a,
-.nav_list a:visited {
+.header_div a:visited {
   color: black;
 }
 
-.nav_list a:hover {
+.header_div a:hover {
   color: grey;
 }
 
 /*********************************
 Index Main
 *********************************/
+
+.main_index {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main_index img {
+  width: 100%;
+  border-radius: 50%;
+}
