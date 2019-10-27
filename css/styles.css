@@ -11,6 +11,15 @@ a {
 }
 
 /*********************************
+Index Container
+*********************************/
+
+#index_container {
+  position: relative;
+  height: 100vh;
+}
+
+/*********************************
 Index Header
 *********************************/
 
@@ -60,4 +69,21 @@ Index Main
 .main_index img {
   width: 100%;
   border-radius: 50%;
+}
+
+/*********************************
+Index Footer
+*********************************/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer img {
+  width: 36px;
+  padding: 0 10px;
 }
