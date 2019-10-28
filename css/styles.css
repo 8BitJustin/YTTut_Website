@@ -24,7 +24,7 @@ Index Header
 *********************************/
 
 .header_div {
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: #f5f5f5;
 }
 
@@ -63,11 +63,12 @@ Index Main
 .main_index {
   width: 80%;
   margin: 0 auto;
+  margin-top: 40px;
   text-align: center;
 }
 
 .main_index img {
-  width: 100%;
+  width: 70%;
   border-radius: 50%;
 }
 
@@ -80,7 +81,9 @@ footer {
   bottom: 0;
   width: 100%;
   margin: 0 auto;
+  padding-top: 40px;
   text-align: center;
+  background-color: #f5f5f5;
 }
 
 footer img {
