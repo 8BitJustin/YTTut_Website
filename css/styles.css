@@ -15,7 +15,9 @@ Index Container
 *********************************/
 
 #index_container {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
   height: 100vh;
 }
 
@@ -24,8 +26,12 @@ Index Header
 *********************************/
 
 .header_div {
-  padding: 20px 0;
-  background-color: #f5f5f5;
+  background-color: #606060;
+  width: 100%;
+}
+
+.header_div h2 {
+  color: #d6ed17;
 }
 
 #logo {
@@ -46,10 +52,11 @@ Index Header
   font-size: 1.25em;
   padding: 0 20px;
   display: inline;
+  color: #d6ed17;
 }
 
 .header_div a:visited {
-  color: black;
+  color: #d6ed17;
 }
 
 .header_div a:hover {
@@ -61,14 +68,12 @@ Index Main
 *********************************/
 
 .main_index {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 40px;
+  width: 100%;
   text-align: center;
 }
 
 .main_index img {
-  width: 70%;
+  width: 60%;
   border-radius: 50%;
 }
 
@@ -77,16 +82,17 @@ Index Footer
 *********************************/
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  margin: 0 auto;
-  padding-top: 40px;
+  padding: 16px 0;
   text-align: center;
-  background-color: #f5f5f5;
+  background-color: #606060;
+  color: #d6ed17;
 }
 
 footer img {
   width: 36px;
-  padding: 0 10px;
+}
+
+footer p {
+  margin: 16px 0 0 0;
 }
