@@ -4,6 +4,7 @@ Universal
 
 body {
   font-family: "Lato", sans-serif;
+  color: #606060;
 }
 
 a {
@@ -30,13 +31,11 @@ Index Header
   width: 100%;
 }
 
-.header_div h2 {
-  color: #d6ed17;
-}
-
 #logo {
+  margin: 24px 0 0 0;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.75em;
+  color: #d6ed17;
 }
 
 .nav_list {
@@ -46,6 +45,7 @@ Index Header
 .nav_list {
   list-style: none;
   padding: 0;
+  margin: 24px 0;
 }
 
 .nav_list li {
@@ -75,6 +75,7 @@ Index Main
 .main_index img {
   width: 60%;
   border-radius: 50%;
+  border: 4px #d6ed17 solid;
 }
 
 /*********************************
@@ -83,16 +84,19 @@ Index Footer
 
 footer {
   width: 100%;
-  padding: 16px 0;
   text-align: center;
   background-color: #606060;
+}
+
+footer a {
   color: #d6ed17;
 }
 
 footer img {
+  margin: 16px 12px 0;
   width: 36px;
 }
 
 footer p {
-  margin: 16px 0 0 0;
+  margin: 16px 0;
 }
