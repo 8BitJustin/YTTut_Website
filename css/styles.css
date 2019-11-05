@@ -29,6 +29,7 @@ Index Header
 .header_div {
   background-color: #606060;
   width: 100%;
+  border-bottom: 4px #d6ed17 solid;
 }
 
 #logo {
@@ -86,6 +87,7 @@ footer {
   width: 100%;
   text-align: center;
   background-color: #606060;
+  border-top: 4px #d6ed17 solid;
 }
 
 footer a {
