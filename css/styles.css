@@ -81,6 +81,29 @@ Index Main
 }
 
 /*********************************
+Work Main
+*********************************/
+
+.main_work {
+  width: 100%;
+}
+
+.work_list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 50px 0;
+}
+
+.work_item img {
+  width: 50%;
+}
+
+.work_item p {
+  margin: 12px 0 36px;
+}
+
+/*********************************
 Footer
 *********************************/
 
