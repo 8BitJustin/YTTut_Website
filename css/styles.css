@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+#active {
+  border-bottom: 2px #d6ed17 solid;
+}
+
 /*********************************
 Index Container
 *********************************/
@@ -40,11 +44,8 @@ Index Header
 }
 
 .nav_list {
-  text-align: center;
-}
-
-.nav_list {
   list-style: none;
+  text-align: center;
   padding: 0;
   margin: 24px 0;
 }
@@ -80,7 +81,7 @@ Index Main
 }
 
 /*********************************
-Index Footer
+Footer
 *********************************/
 
 footer {
