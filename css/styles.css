@@ -85,7 +85,9 @@ Work Main
 }
 
 .work_list {
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   text-align: center;
   padding: 0;
   margin: 50px 0;
@@ -133,6 +135,13 @@ Media Queries
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .work_list {
+    flex-direction: row;
+  }
+
+  .work_item img {
+    width: 80%;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
