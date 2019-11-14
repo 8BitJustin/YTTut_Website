@@ -187,13 +187,14 @@ Media Queries
     align-items: center;
   }
 
-  /* .social_icons img {
-    margin-bottom: 16px;
-  } */
+  .social_icons img {
+    margin-top: 0;
+  }
 
   .email_div {
     font-size: 1.5em;
     margin: 20px 0;
+    order: -1;
   }
 }
 
