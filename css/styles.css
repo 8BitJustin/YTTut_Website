@@ -177,8 +177,16 @@ Media Queries
     font-size: 2em;
   }
 
+  .work_list {
+    margin: 0;
+  }
+
+  .work_item {
+    margin-bottom: 0;
+  }
+
   .work_item img {
-    width: 50%;
+    width: 40%;
   }
 
   .work_item p {
